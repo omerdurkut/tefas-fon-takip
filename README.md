@@ -1,5 +1,7 @@
 # TEFAS Fund Tracker
 
+![TEFAS Fund Tracker Dashboard](screenshot.png)
+
 A Python learning project that pulls historical fund data from TEFAS
 (Turkey's Electronic Fund Trading Platform) and visualizes it for
 comparison across fund categories.
