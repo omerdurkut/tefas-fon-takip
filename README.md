@@ -35,3 +35,14 @@ streamlit run app.py           # interactive dashboard
   community library (tefas-crawler) solved that fragility
 - Data cleaning and transformation with pandas
 - Building a quick interactive interface with Streamlit
+
+## Known Limitations
+
+- Relies on the `tefas-crawler` community library to talk to TEFAS's
+  undocumented API. TEFAS changed this API in 2026 (the original
+  direct-request approach broke with a 404), so this dependency could
+  require an update again in the future if TEFAS changes its backend.
+- Fund codes are entered manually; there's no built-in search/lookup
+  against TEFAS's full fund list yet.
+- Data freshness depends on TEFAS's own publishing schedule (funds
+  are typically priced once per business day).
